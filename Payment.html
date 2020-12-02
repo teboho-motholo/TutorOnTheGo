@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Payment Gateway</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="//fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i" rel="stylesheet">
+<script type="text/javascript">
+      function showMessage(){
+        alert("Booking details sent to email");
+      }
+</script>
+</head>
+<body>
+    <h1>Payment</h1>
+    <div class="main-w3layouts wrapper">
+        <div class="main-agileinfo">
+			<div class='row'>
+                <div class='col-md-4'></div>
+                <div class='col-md-4'>
+                  <!-- <script src='https://js.stripe.com/v2/' type='text/javascript'></script> -->
+                     <div class='form-row'>
+                      <div class='col-xs-12 form-group required'>
+                        <input class='form-control' placeholder='Name on Card' size='20' type='text'>
+                      </div>
+                    </div>
+                    <div class='form-row'>
+                      <div class='col-xs-12 form-group card required'>
+                        <input autocomplete='off' class='form-control card-number' placeholder='Card Number' size='20' type='text'>
+                      </div>
+                    </div>
+                    <div class='form-row'>
+                      <div class='col-xs-4 form-group cvc required'>
+                        <input autocomplete='off' class='form-control card-cvc' placeholder='CVC' size='4' type='text'>
+                      </div>
+                      <div class='col-xs-4 form-group expiration required'>
+                        <input class='form-control card-expiry-month' placeholder='MM' size='2' type='text'>
+                      </div>
+                      <div class='col-xs-4 form-group expiration required'>
+                        <label class='control-label'> </label><input class='form-control card-expiry-year' placeholder='YYYY' size='4' type='text'>
+                    </div>
+                  </div>
+                  <div class='form-row'>
+                    <div class='col-md-12'>
+                    </div>
+                  </div>
+                  <div class='form-row'>
+                    <div class='col-md-12 form-group'>
+                        <input type="submit" value="PAY" onclick="showMessage()">
+                    </div>
+                  </div>
+                
+              </div>
+              <div class='col-md-4'></div>
+            </div>
+		</div>
+    </div>
+<ul class="colorlib-bubbles">
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
+</div>
+</body>
+</html>
